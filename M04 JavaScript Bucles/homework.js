@@ -5,6 +5,15 @@ function obtenerMayor(x, y) {
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
+   var respuesta;
+   if(x>y){
+      respuesta=x;
+   }else if(x<y){
+      respuesta=y;
+   }else{
+      respuesta=x, y;
+   }
+   return respuesta;
 }
 
 function mayoriaDeEdad(edad) {
@@ -12,6 +21,13 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
+   var respuesta;
+   if(edad>=18){
+      respuesta='Allowed';
+   }else{
+      respuesta='Not allowed';
+   }
+   return respuesta;
 }
 
 function conection(status) {
@@ -21,6 +37,15 @@ function conection(status) {
    // De lo contrario, presumimos que el usuario está "Offline".
    // Retornar el estado de conexión del usuario.
    // Tu código:
+   var conexion;
+   if(status=1){
+      conexion='Online';
+   }else if(status=2){
+      conexion='Away';
+   }else{
+      conexion='Offline';
+   }
+   return conexion;
 }
 
 function saludo(idioma) {
