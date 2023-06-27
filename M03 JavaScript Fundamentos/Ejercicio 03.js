@@ -6,11 +6,11 @@ function sonIguales(x, y) {
    // De lo contrario, retorna false.
    // Tu código:
    var respuesta;
-   
-   if (x===y) {
-      respuesta=true;
+
+   if (x === y) {
+      respuesta = true;
    } else {
-      respuesta=false;
+      respuesta = false;
    }
    return respuesta;
 }
@@ -19,11 +19,11 @@ function tienenMismaLongitud(str1, str2) {
    // Retorna true si los dos strings tienen la misma longitud.
    // De lo contrario, retorna false.
    // Tu código:
-   var respuesta;   
-   if(str1.length===str2.length){
-      respuesta=true;
-   }else{
-      respuesta=false;
+   var respuesta;
+   if (str1.length === str2.length) {
+      respuesta = true;
+   } else {
+      respuesta = false;
    }
    return respuesta;
 }
@@ -33,10 +33,10 @@ function menosQueNoventa(num) {
    // De lo contrario, retorna false.
    // Tu código:
    var respuesta;
-   if(num<90){
-      respuesta=true;
-   }else{
-      respuesta=false;
+   if (num < 90) {
+      respuesta = true;
+   } else {
+      respuesta = false;
    }
    return respuesta;
 }
@@ -46,10 +46,10 @@ function mayorQueCincuenta(num) {
    // De lo contrario, retorna false.
    // Tu código:
    var respuesta;
-   if(num>50){
-      respuesta=true;
-   }else{
-      respuesta=false;
+   if (num > 50) {
+      respuesta = true;
+   } else {
+      respuesta = false;
    }
    return respuesta;
 }
@@ -59,10 +59,10 @@ function esPar(num) {
    // De lo contrario, retorna false.
    // Tu código:
    var respuesta;
-   if(num%2==0){
-      respuesta=true;
-   }else{
-      respuesta=false;
+   if (num % 2 == 0) {
+      respuesta = true;
+   } else {
+      respuesta = false;
    }
    return respuesta;
 }
@@ -72,10 +72,10 @@ function esImpar(num) {
    // De lo contrario, retorna false.
    // Tu código:
    var respuesta;
-   if(num%2==1){
-      respuesta=true;
-   }else{
-      respuesta=false;
+   if (num % 2 == 1) {
+      respuesta = true;
+   } else {
+      respuesta = false;
    }
    return respuesta;
 }
